@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Test Suite" parallel="tests" thread-count="3" verbose="1">
+    
+    <listeners>
+        <listener class-name="com.orangehrm.listeners.TestListener"/>
+    </listeners>
+    
+    <test name="Login Tests">
+        <classes>
+            <class name="com.orangehrm.tests.LoginTest">
+                <methods>
+                    <include name="testLoginWithVariousCredentials"/>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="PIM Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.orangehrm.tests.PIMTest">
+                <methods>
+                    <include name="testPIMPageAccess"/>
+                    <include name="testAddNewEmployee"/>
+                    <include name="testAddMultipleEmployees"/>
+                    <include name="testRequiredFieldsInAddEmployee"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Admin Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.orangehrm.tests.AdminTest">
+                <methods>
+                    <include name="testAdminPageAccess"/>
+                    <include name="testAddNewSystemUser"/>
+                    <include name="testAddSystemUserWithDataProvider"/>
+                    <include name="testAddUserWithExistingUsername"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite>

@@ -1,0 +1,31 @@
+{
+  "validCredentials": {
+    "username": "Admin",
+    "password": "admin123",
+    "expectedResult": "success"
+  },
+  "invalidUsername": {
+    "username": "invaliduser",
+    "password": "admin123",
+    "expectedResult": "error",
+    "errorMessage": "Invalid credentials"
+  },
+  "invalidPassword": {
+    "username": "Admin",
+    "password": "wrongpass",
+    "expectedResult": "error",
+    "errorMessage": "Invalid credentials"
+  },
+  "emptyCredentials": {
+    "username": "",
+    "password": "",
+    "expectedResult": "error",
+    "errorMessage": "Required"
+  },
+  "sqlInjectionAttempt": {
+    "username": "' OR '1'='1",
+    "password": "' OR '1'='1",
+    "expectedResult": "error",
+    "errorMessage": "Invalid credentials"
+  }
+}

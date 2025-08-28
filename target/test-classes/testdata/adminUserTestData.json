@@ -1,0 +1,65 @@
+{
+  "validUsers": [
+    {
+      "userRole": "Admin",
+      "employeeName": "John Smith",
+      "status": "Enabled",
+      "username": "",
+      "password": "Test@123"
+    },
+    {
+      "userRole": "ESS",
+      "employeeName": "Jane Doe",
+      "status": "Enabled",
+      "username": "",
+      "password": "SecurePass123!"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "userRole": "",
+      "employeeName": "John Smith",
+      "status": "Enabled",
+      "username": "testuser1",
+      "password": "Test@123",
+      "errorField": "userRole",
+      "errorMessage": "Required"
+    },
+    {
+      "userRole": "ESS",
+      "employeeName": "",
+      "status": "Enabled",
+      "username": "testuser2",
+      "password": "Test@123",
+      "errorField": "employeeName",
+      "errorMessage": "Required"
+    },
+    {
+      "userRole": "ESS",
+      "employeeName": "John Smith",
+      "status": "",
+      "username": "testuser3",
+      "password": "Test@123",
+      "errorField": "status",
+      "errorMessage": "Required"
+    },
+    {
+      "userRole": "ESS",
+      "employeeName": "John Smith",
+      "status": "Enabled",
+      "username": "",
+      "password": "Test@123",
+      "errorField": "username",
+      "errorMessage": "Required"
+    },
+    {
+      "userRole": "ESS",
+      "employeeName": "John Smith",
+      "status": "Enabled",
+      "username": "testuser4",
+      "password": "",
+      "errorField": "password",
+      "errorMessage": "Required"
+    }
+  ]
+}

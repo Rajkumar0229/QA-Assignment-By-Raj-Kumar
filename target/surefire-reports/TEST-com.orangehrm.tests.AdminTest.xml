@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.orangehrm.tests.AdminTest" time="298.786" tests="4" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="webdriver.chrome.driver" value="/Users/pujapaul/.cache/selenium/chromedriver/mac-arm64/139.0.7258.154/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/pujapaul/Downloads/Auto/Automation/target/test-classes:/Users/pujapaul/Downloads/Auto/Automation/target/classes:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/Users/pujapaul/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/pujapaul/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/pujapaul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/pujapaul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/pujapaul/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/pujapaul/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/pujapaul/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/pujapaul/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/Users/pujapaul/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/Users/pujapaul/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/pujapaul/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/pujapaul/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/pujapaul/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/pujapaul/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2.jar:/Users/pujapaul/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/pujapaul/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/pujapaul/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/pujapaul/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/pujapaul/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/pujapaul/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/Users/pujapaul/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/pujapaul/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/pujapaul/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/pujapaul/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/pujapaul/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/pujapaul/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/pujapaul/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/pujapaul/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/pujapaul/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/pujapaul/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/pujapaul/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/Users/pujapaul/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/pujapaul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/pujapaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/pujapaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/pujapaul/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar:/Users/pujapaul/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/pujapaul/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/pujapaul/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/pujapaul/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/pujapaul/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/pujapaul/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/pujapaul/Downloads/Auto/Automation/target/surefire/surefirebooter-20250828143204588_3.jar /Users/pujapaul/Downloads/Auto/Automation/target/surefire 2025-08-28T14-32-04_484-jvmRun1 surefire-20250828143204588_1tmp surefire_0-20250828143204588_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="AdminTest"/>
+    <property name="surefire.test.class.path" value="/Users/pujapaul/Downloads/Auto/Automation/target/test-classes:/Users/pujapaul/Downloads/Auto/Automation/target/classes:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/Users/pujapaul/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/pujapaul/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/pujapaul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/pujapaul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/pujapaul/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/pujapaul/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/pujapaul/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/Users/pujapaul/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/pujapaul/.m2/repository/net/bytebuddy/byte-buddy/1.14.5/byte-buddy-1.14.5.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/Users/pujapaul/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/Users/pujapaul/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/Users/pujapaul/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/pujapaul/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/pujapaul/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/pujapaul/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/pujapaul/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2.jar:/Users/pujapaul/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/pujapaul/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/Users/pujapaul/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/Users/pujapaul/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/Users/pujapaul/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/pujapaul/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/Users/pujapaul/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/pujapaul/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/pujapaul/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/pujapaul/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/pujapaul/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/pujapaul/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/pujapaul/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/Users/pujapaul/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/Users/pujapaul/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/pujapaul/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/pujapaul/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/Users/pujapaul/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/pujapaul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/pujapaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/pujapaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/pujapaul/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar:/Users/pujapaul/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/pujapaul/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/pujapaul/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/pujapaul/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/pujapaul/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/pujapaul/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/pujapaul"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/pujapaul/Downloads/Auto/Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/pujapaul/Downloads/Auto/Automation/target/surefire/surefirebooter-20250828143204588_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.1"/>
+    <property name="user.name" value="pujapaul"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.6.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value=""/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/pujapaul/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/p7/r5zydzps43j1sj833492nm7h0000gn/T/"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="/Users/pujapaul/Downloads/Auto/Automation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="headless" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/pujapaul/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="24.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testAdminPageAccess" classname="com.orangehrm.tests.AdminTest" time="0.017">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Aug 28, 2025 2:32:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 28, 2025 2:32:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddNewSystemUser" classname="com.orangehrm.tests.AdminTest" time="104.678">
+    <failure message="Failed to verify navigation to System Users page after adding user" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Failed to verify navigation to System Users page after adding user
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.orangehrm.tests.AdminTest.testAddNewSystemUser(AdminTest.java:90)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Starting to add new user: testuser_e3672b17
+Clicking Add button
+Attempt 1 to click Add button failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()=' Add ']' (tried for 10 second(s) with 500 milliseconds interval)
+Attempt 2 to click Add button failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()=' Add ']' (tried for 10 second(s) with 500 milliseconds interval)
+Attempt 3 to click Add button failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()=' Add ']' (tried for 10 second(s) with 500 milliseconds interval)
+Failed to click Add button after retries
+Screenshot saved at: test-output/screenshots/system_users_page_not_loaded_20250828_143350.png
+Failed to delete user testuser_e3672b17. Screenshot saved at: test-output/screenshots/delete_user_failed_testuser_e3672b17_20250828_143411.png
+Failed to clean up test user testuser_e3672b17: Failed to delete user: Failed to navigate to Users section. Screenshot: test-output/screenshots/navigate_to_users_section_failed_20250828_143410.png
+]]></system-out>
+    <system-err><![CDATA[Aug 28, 2025 2:32:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 28, 2025 2:32:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddSystemUserWithDataProvider[Admin, Emily Davis, Enabled, testuser_d10f952a, Test@9d3bd052](1)" classname="com.orangehrm.tests.AdminTest" time="65.225">
+    <failure message="Failed to add new user with data provider expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Failed to add new user with data provider expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.orangehrm.tests.AdminTest.testAddSystemUserWithDataProvider(AdminTest.java:128)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Starting to add new user: testuser_d10f952a
+Clicking Add button
+Attempt 1 to click Add button failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()=' Add ']' (tried for 10 second(s) with 500 milliseconds interval)
+Attempt 2 to click Add button failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()=' Add ']' (tried for 10 second(s) with 500 milliseconds interval)
+Attempt 3 to click Add button failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()=' Add ']' (tried for 10 second(s) with 500 milliseconds interval)
+Failed to click Add button after retries
+]]></system-out>
+    <system-err><![CDATA[Aug 28, 2025 2:34:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 28, 2025 2:34:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddUserWithExistingUsername" classname="com.orangehrm.tests.AdminTest" time="84.312">
+    <failure message="Failed to add first user with username: testuser_830a7cce expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Failed to add first user with username: testuser_830a7cce expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.orangehrm.tests.AdminTest.testAddUserWithExistingUsername(AdminTest.java:176)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Starting to add new user: testuser_830a7cce
+Clicking Add button
+Attempt 1 to click Add button failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()=' Add ']' (tried for 10 second(s) with 500 milliseconds interval)
+Attempt 2 to click Add button failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()=' Add ']' (tried for 10 second(s) with 500 milliseconds interval)
+Attempt 3 to click Add button failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()=' Add ']' (tried for 10 second(s) with 500 milliseconds interval)
+Failed to click Add button after retries
+Failed to delete user testuser_830a7cce. Screenshot saved at: test-output/screenshots/delete_user_failed_testuser_830a7cce_20250828_143702.png
+Failed to clean up test user testuser_830a7cce: Failed to delete user: Failed to navigate to Users section. Screenshot: test-output/screenshots/navigate_to_users_section_failed_20250828_143702.png
+]]></system-out>
+    <system-err><![CDATA[Aug 28, 2025 2:35:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 28, 2025 2:35:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.139. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,39 @@
+{
+  "validEmployees": [
+    {
+      "firstName": "John",
+      "middleName": "Middle",
+      "lastName": "Doe",
+      "employeeId": "EMP"
+    },
+    {
+      "firstName": "Jane",
+      "middleName": "Anne",
+      "lastName": "Smith",
+      "employeeId": ""
+    },
+    {
+      "firstName": "Robert",
+      "middleName": "James",
+      "lastName": "Johnson",
+      "employeeId": "EMP123"
+    }
+  ],
+  "invalidEmployees": [
+    {
+      "firstName": "",
+      "lastName": "Doe",
+      "errorMessage": "Required"
+    },
+    {
+      "firstName": "John",
+      "lastName": "",
+      "errorMessage": "Required"
+    },
+    {
+      "firstName": "Test@123",
+      "lastName": "User",
+      "errorMessage": "Invalid name"
+    }
+  ]
+}
